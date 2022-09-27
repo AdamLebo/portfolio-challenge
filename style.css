@@ -1,0 +1,54 @@
+:root {
+    --ff-head: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --ff-body: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    --fw-head: 700;
+    --fw-body: 200;
+
+    --color-light: powderblue;
+    --color-dark: black;
+
+    --fs-h1: 30px;
+    --fs-h2: 20px;
+    --fs-h3: 15px;
+}
+
+body {
+    background: var(--color-light);
+    color: var(--color-dark);
+    margin: 0;
+}
+
+header {
+    font-family: var(--ff-head);
+    font-size: var(--fs-h1);
+}
+
+img {
+    display: block;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    text-align: right;
+    margin-left: 55%;
+    flex-wrap: wrap;
+}
+
+li {
+    float: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
