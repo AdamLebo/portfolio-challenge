@@ -6,7 +6,8 @@
     --fw-body: 200;
 
     --color-light: #ff7091;
-    --color-dark: black;
+    --color-bg: black;
+    --color-font: white;
 
     --fs-h1: 30px;
     --fs-h2: 20px;
@@ -14,8 +15,8 @@
 }
 
 body {
-    background: var(--color-light);
-    color: var(--color-dark);
+    background: var(--color-bg);
+    color: var(--color-font);
     margin: 0;
 }
 
@@ -76,6 +77,8 @@ h3 {font-size: var(--fs-h3);}
     font-family: var(--ff-head);
     margin: 20px;
 }
+
+
 
 .contact-me {
     font-family: var(--ff-head);
